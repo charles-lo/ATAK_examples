@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\github\\ATAK_examples\\atak-civ\\plugin-examples\\plugintemplate\\app\\build\\intermediates\\incremental\\mergeCivDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\github\\ATAK_examples\\atak-civ\\plugin-examples\\plugintemplate\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "5,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "150,72",
+                        "endColumns": "128,52",
+                        "endOffsets": "274,120"
+                    },
+                    "to": {
+                        "startLines": "6,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "223,352",
+                        "endColumns": "128,52",
+                        "endOffsets": "347,400"
+                    }
+                },
+                {
+                    "source": "D:\\github\\ATAK_examples\\atak-civ\\plugin-examples\\plugintemplate\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "5,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "120,80",
+                        "endColumns": "45,39",
+                        "endOffsets": "161,115"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,101",
+                        "endColumns": "45,39",
+                        "endOffsets": "96,136"
+                    }
+                },
+                {
+                    "source": "D:\\github\\ATAK_examples\\atak-civ\\plugin-examples\\plugintemplate\\app\\src\\main\\res\\values\\dimen.xml",
+                    "from": {
+                        "startLines": "17,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "947,196",
+                        "endColumns": "41,39",
+                        "endOffsets": "984,231"
+                    },
+                    "to": {
+                        "startLines": "4,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "141,183",
+                        "endColumns": "41,39",
+                        "endOffsets": "178,218"
+                    }
+                },
+                {
+                    "source": "D:\\github\\ATAK_examples\\atak-civ\\plugin-examples\\plugintemplate\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "70,3,66,86,78,15,47,56,92,105,112,99",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3351,49,3212,4128,3753,778,2354,2678,4390,4920,5127,4668",
+                        "endLines": "76,12,68,88,84,40,53,63,96,107,122,103",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "3747,771,3345,4279,4121,2178,2640,3205,4661,5068,5710,4914"
+                    },
+                    "to": {
+                        "startLines": "8,15,25,28,31,38,64,71,79,84,87,98",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "405,806,1533,1671,1827,2200,3605,3896,4428,4704,4857,5445",
+                        "endLines": "14,24,27,30,37,63,70,78,83,86,97,102",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "801,1528,1666,1822,2195,3600,3891,4423,4699,4852,5440,5691"
+                    }
+                }
+            ]
+        }
+    ]
+}

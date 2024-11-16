@@ -1,0 +1,7 @@
+#Sun Nov 17 01:55:54 CST 2024
+base.1=D\:\\github\\ATAK_examples\\atak-civ\\plugin-examples\\plugintemplate\\app\\build\\intermediates\\dex\\civDebugAndroidTest\\mergeProjectDexCivDebugAndroidTest\\2\\classes.dex
+path.1=2/classes.dex
+base.0=D\:\\github\\ATAK_examples\\atak-civ\\plugin-examples\\plugintemplate\\app\\build\\intermediates\\dex\\civDebugAndroidTest\\mergeProjectDexCivDebugAndroidTest\\0\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=0/classes.dex
