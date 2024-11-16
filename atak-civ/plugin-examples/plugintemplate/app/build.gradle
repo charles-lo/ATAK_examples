@@ -51,6 +51,7 @@ buildscript {
             url "https://jitpack.io"
         }
         maven {
+            allowInsecureProtocol = true
             url = takrepoUrl
             credentials {
                 username = takrepoUser
@@ -59,7 +60,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.2.2'
+        classpath 'com.android.tools.build:gradle:7.4.2'
         if(isDevKitEnabled()) {
             classpath "com.atakmap.gradle:atak-gradle-takdev:${takdevVersion}"
         } else {
@@ -85,7 +86,6 @@ apply plugin: 'atak-takdev-plugin'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "30.0.2"
 
     dexOptions {
         jumboMode = true
