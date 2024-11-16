@@ -1,7 +1,7 @@
 # ATAK_examples
 
 ## 2024-11-17
-1. update to gradle-8.0 and AGP must be 7.4.2
+1. update to gradle-8.0 and AGP must be 8.5.2
 
 ## 2024-11-16
 1. based on atak-civ-sdk-4.6.0.5
