@@ -52,6 +52,7 @@ buildscript {
             url "https://jitpack.io"
         }
         maven {
+            allowInsecureProtocol = true
             url = takrepoUrl
             credentials {
                 username = takrepoUser
@@ -60,7 +61,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.2.2'
+        classpath "com.android.tools.build:gradle:$agp_version"
         if(isDevKitEnabled()) {
             classpath "com.atakmap.gradle:atak-gradle-takdev:${takdevVersion}"
         } else {
@@ -114,18 +115,13 @@ dependencies {
 
 android {
     compileSdkVersion 28
-    buildToolsVersion "30.0.2"
 
-   dexOptions {
+    dexOptions {
         jumboMode = true
     }
-
-    lintOptions {
-          checkReleaseBuilds true
-          // Or, if you prefer, you can continue to check for errors in release builds,
-          // but continue the build even when errors are found:
-          abortOnError true
-      }
+    buildFeatures {
+        buildConfig = true
+    }
 
     signingConfigs {
         debug {
@@ -173,10 +169,12 @@ android {
             matchingFallbacks = ['odk']
         }
     }
-
     packagingOptions {
-        exclude 'META-INF/INDEX.LIST'
+        resources {
+            excludes += ['META-INF/INDEX.LIST']
+        }
     }
+
 
     sourceSets {
         main {
@@ -285,6 +283,11 @@ android {
         applicationVariants.all { variant ->
             variant.resValue "string", "versionName", variant.versionName
         }
+    }
+    namespace 'com.atakmap.android.helloworld.plugin'
+    lint {
+        abortOnError true
+        checkReleaseBuilds true
     }
 }
 
